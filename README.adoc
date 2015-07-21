@@ -1,19 +1,14 @@
-﻿$Revision$
-$Date$
+= Groovy Native Launcher
 
-Author:  Antti Karanta (Antti dot Karanta (at) hornankuusi dot fi) 
-
-
-What it is
-----------
+== What it is
 
 This is a native launcher for Groovy, i.e. here you can find C sources and
 build files to build a native executable to launch Groovy scripts, much the 
 same way Java binary is used to launch Java programs.
 
+The Groovy Native Launcher was created by Antti Karanta (Antti dot Karanta (at) hornankuusi dot fi) 
 
-Design principles
------------------
+== Design principles
 
 For maximum portability, the source is written in ANSI-C using POSIX functions. Anything
 that can be done using these is done so without using external libraries / extensions. 
@@ -30,17 +25,14 @@ of using "big enough" buffer is avoided if at all possible - instead memory is a
 calculating how much is needed. The only exception to this rule is places where the posix or 
 os specific API used must be called with a preallocated buffer, e.g. realpath function.
 
-Licencing
----------
+== Licencing
 
 The sources are provided with Apache 2 licence as that was thought to be liberal 
 enough so that these can be used for any purpose commercial or open source. If
 you are for some reason restricted by that licence, please contact the author and
 we'll work it out - the purpose is for these sources to be as widely usable as possible.
 
-
-Porting to currently unsupported operating systems
---------------------------------------------------
+== Porting to currently unsupported operating systems
 
 Currently the implementation of the following things are platform dependent:
 
@@ -54,8 +46,7 @@ Currently the implementation of the following things are platform dependent:
   * supporting platform peculiarities like looking up java home from windows registry and
     using the standard Java installation location on os-x
   
-Java launcher generator
------------------------
+== Java launcher generator
 
 This directory (and subdirectories) also contains a work in progress: a code 
 generator to generate c sources and build files for a native launcher for any 
@@ -78,14 +69,7 @@ JEXECreator   http://www.ucware.com/jexec                 commercial, windows on
 JEXEPack      http://www.duckware.com/jexepack/index.html commercial, windows only
 
 
-More information
-----------------
-
-See http://docs.codehaus.org/display/GROOVY/Native+Launcher
-
-
-TODO
-----
+== TODO
 
  * refactor parameter classification into separate functions, possibly a separate source file
    options:

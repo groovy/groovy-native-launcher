@@ -42,7 +42,7 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "Codehaus"
+            VALUE "CompanyName", "The Grails Project"
             VALUE "FileDescription", "grails binary"
             VALUE "FileVersion", "1.1"
             VALUE "InternalName", "grails"
@@ -50,7 +50,7 @@ BEGIN
             VALUE "OriginalFilename", "grails.rc"
             VALUE "ProductName", " grails"
             VALUE "ProductVersion", "1.1"
-            VALUE "Comments", "See http://grails.codehaus.org"
+            VALUE "Comments", "See https://grails.org/"
         END
     END
     BLOCK "VarFileInfo"

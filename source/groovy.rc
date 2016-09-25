@@ -46,7 +46,7 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "Codehaus"
+            VALUE "CompanyName", "The Groovy Project"
             VALUE "FileDescription", "groovy binary"
             VALUE "FileVersion", "1.5"
             VALUE "InternalName", "groovy"
@@ -54,7 +54,7 @@ BEGIN
             VALUE "OriginalFilename", "groovy.rc"
             VALUE "ProductName", " groovy"
             VALUE "ProductVersion", "1.5"
-            VALUE "Comments", "See http://groovy.codehaus.org"
+            VALUE "Comments", "See http://groovy-lang.org/"
         END
     END
     BLOCK "VarFileInfo"

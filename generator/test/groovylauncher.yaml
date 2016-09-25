@@ -183,7 +183,7 @@ xgroovy :
       # If only a windows executable is produced, this is ignored.
       # winapp name : xxx
       exe metadata :
-        CompanyName      : Codehaus
+        CompanyName      : The Groovy Project
         FileDescription  : groovy binary
         FileVersion      : 1.5
         InternalName     : groovy
@@ -191,7 +191,7 @@ xgroovy :
         OriginalFilename : groovy.rc
         ProductName      : groovy
         ProductVersion   : 1.5
-        Comments         : See http://groovy.codehaus.org
+        Comments         : See http://groovy-lang.org/
   program parameters :
       # Design note: it was considered whether one parameter could be given on 
       # a single line such as

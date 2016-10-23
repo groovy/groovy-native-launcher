@@ -212,7 +212,6 @@ static GroovyApp groovyApps[] = {
   { "grape",         "org.codehaus.groovy.tools.GrapeMain",            (JstParamInfo*)noParameters,            JST_UNRECOGNIZED_TO_JVM },
   { "java2groovy",   "org.codehaus.groovy.antlr.java.Java2GroovyMain", (JstParamInfo*)java2groovyParameters,   JST_UNRECOGNIZED_TO_JVM },
   { "groovyconsole", "groovy.ui.Console",                              (JstParamInfo*)noParameters,            JST_UNRECOGNIZED_TO_JVM },
-  { "graphicspad",   "groovy.swing.j2d.app.GraphicsPad",               (JstParamInfo*)noParameters,            JST_UNRECOGNIZED_TO_JVM },
   { "startgroovy",   NULL,                                             (JstParamInfo*)groovyStarterParameters, JST_UNRECOGNIZED_TO_APP },
 
   { NULL, NULL, NULL, 0 }

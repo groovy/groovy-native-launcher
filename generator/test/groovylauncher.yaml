@@ -185,12 +185,12 @@ xgroovy :
       exe metadata :
         CompanyName      : The Groovy Project
         FileDescription  : groovy binary
-        FileVersion      : 1.5
+        FileVersion      : 2.4.8
         InternalName     : groovy
-        LegalCopyright   : Copyright (C) 2008
+        LegalCopyright   : Copyright (C) 2016
         OriginalFilename : groovy.rc
         ProductName      : groovy
-        ProductVersion   : 1.5
+        ProductVersion   : 2.4.8
         Comments         : See http://groovy-lang.org/
   program parameters :
       # Design note: it was considered whether one parameter could be given on 

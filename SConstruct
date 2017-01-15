@@ -223,6 +223,7 @@ else :
 if cygwinsupport :
     if environment['PLATFORM'] in [ 'win32' , 'mingw' , 'cygwin' ] : # TODO: add win64 once it is figured out what name it goes by
         if width == 32 :
+          print "info: including cygwin support"
           environment.Append ( CPPDEFINES = [ '_cwcompat' ] )
         elif cygwinsupportExplicitlyRequested : 
             print "error: cygwin support only supported for 32 bit builds"
